@@ -23,7 +23,7 @@ int main()
   {
       cout<<a[i]<<" ";
   }
-  *///////////////////////////////////////////////
+  */////////////////////////////////////////////// 
   
  /********Taken input from User and print it********** 
   int n;
@@ -34,6 +34,14 @@ int main()
      cin>>e;            //input from user;
      a.push_back(e);
   }
+  //another proces of taking input from user::
+  vector<int> v(size);
+  for(int i=0 ; i<size ; i++)
+  {
+                       
+      cin>>v[i];                 
+ }
+  
   // a.clear();     //clear vector
  // a.resize(10);   // vector resize
    vector<int> temp;
